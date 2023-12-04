@@ -12,11 +12,22 @@
     padding: 10px;
 }
 
-.todo-app {
+.greeting {
     width: 100%;
     max-width: 540px;
     background: #fff;
     margin: 100px auto 20px;
+    padding: 40px 30px 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 20px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -90,7 +101,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-    background-image: url(images/checked.png);
+    background-image: url(/images/checked.png);
 }
 
 ul li span {
